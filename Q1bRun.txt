@@ -1,0 +1,807 @@
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Hello World!
+Setup Complete
+step 0, training accuracy 0.08
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.08639999695122241
+step 100, training accuracy 0.8
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.8512999922037124
+step 200, training accuracy 0.96
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9040999948978424
+step 300, training accuracy 0.92
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9326999971270561
+step 400, training accuracy 0.88
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9371000012755394
+step 500, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9508000001311302
+step 600, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9549999997019768
+step 700, training accuracy 0.94
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9559999999403953
+step 800, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9620000067353248
+step 900, training accuracy 0.94
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.963100000321865
+step 1000, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9655000042915344
+step 1100, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9665000015497207
+step 1200, training accuracy 0.96
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9703999972343444
+step 1300, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9711999997496605
+step 1400, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.971599996984005
+step 1500, training accuracy 0.96
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9723000052571297
+step 1600, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9749000006914139
+step 1700, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9741000017523765
+step 1800, training accuracy 0.96
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9763000029325485
+step 1900, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9776000025868415
+step 2000, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.976199997663498
+step 2100, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9790000000596046
+step 2200, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9758000004291535
+step 2300, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9787000003457069
+step 2400, training accuracy 0.94
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9770000013709068
+step 2500, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9804000014066696
+step 2600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.981199999153614
+step 2700, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9809999972581863
+step 2800, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9825999990105629
+step 2900, training accuracy 0.96
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.982700001001358
+step 3000, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9822000029683113
+step 3100, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9811999988555908
+step 3200, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9822999992966652
+step 3300, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9838000014424324
+step 3400, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9842000013589859
+step 3500, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9839000010490417
+step 3600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9840999993681908
+step 3700, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.983500000834465
+step 3800, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.984999997317791
+step 3900, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9848000001907349
+step 4000, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.984800000488758
+step 4100, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9836999976634979
+step 4200, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9840999951958657
+step 4300, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9839999988675118
+step 4400, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9856999999284745
+step 4500, training accuracy 0.96
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9855000001192092
+step 4600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9871999981999398
+step 4700, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9856000000238418
+step 4800, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.986599996984005
+step 4900, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9851999974250794
+step 5000, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9858999991416931
+step 5100, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9871999987959862
+step 5200, training accuracy 0.96
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9872999998927117
+step 5300, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9880999988317489
+step 5400, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9881999987363815
+step 5500, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9884000000357628
+step 5600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9892999985814095
+step 5700, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9883000007271767
+step 5800, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9893000012636185
+step 5900, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9870000016689301
+step 6000, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9881999990344048
+step 6100, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9890999990701675
+step 6200, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9897999981045723
+step 6300, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.987899997830391
+step 6400, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9879999989271164
+step 6500, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9866999992728234
+step 6600, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9889999997615814
+step 6700, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9879999995231629
+step 6800, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.986500001847744
+step 6900, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9878999987244605
+step 7000, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9882999989390373
+step 7100, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9866000011563301
+step 7200, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9881999996304512
+step 7300, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9883999997377395
+step 7400, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9899999988079071
+step 7500, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.988900001347065
+step 7600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.99
+step 7700, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9908999985456467
+step 7800, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9896999999880791
+step 7900, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9903999999165535
+step 8000, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9885999974608422
+step 8100, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9903999999165535
+step 8200, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9896999990940094
+step 8300, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9895999991893768
+step 8400, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9903000009059906
+step 8500, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.990599998831749
+step 8600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9897999981045723
+step 8700, training accuracy 0.96
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.990300000011921
+step 8800, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9899999997019768
+step 8900, training accuracy 0.96
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9909000000357628
+step 9000, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9911999997496604
+step 9100, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9915000000596046
+step 9200, training accuracy 0.96
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9908000004291534
+step 9300, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9896000003814698
+step 9400, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9905999994277954
+step 9500, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9890999978780747
+step 9600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9885000014305114
+step 9700, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9895000001788139
+step 9800, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9890000003576279
+step 9900, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9900999987125396
+step 10000, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9889999994635582
+step 10100, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9899999982118607
+step 10200, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9900999996066093
+step 10300, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.989800000488758
+step 10400, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9913999989628792
+step 10500, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.990399999320507
+step 10600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9907000002264976
+step 10700, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9902999979257584
+step 10800, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9903999981284142
+step 10900, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9909000012278557
+step 11000, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9908000001311302
+step 11100, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9903000006079674
+step 11200, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9904000008106232
+step 11300, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.990300000011921
+step 11400, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9903999987244606
+step 11500, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9909999996423722
+step 11600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9906000003218651
+step 11700, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9911999997496604
+step 11800, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9918000012636184
+step 11900, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9923999992012977
+step 12000, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9919999992847442
+step 12100, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9899999988079071
+step 12200, training accuracy 0.96
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9914000004529953
+step 12300, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9909999999403953
+step 12400, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9901999992132187
+step 12500, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9902999976277351
+step 12600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9900999996066093
+step 12700, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9907000008225441
+step 12800, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9916999992728234
+step 12900, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9911999982595444
+step 13000, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9910999968647957
+step 13100, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9911999979615211
+step 13200, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9904999998211861
+step 13300, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9913999995589257
+step 13400, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.991399998664856
+step 13500, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9915999981760979
+step 13600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9915999987721443
+step 13700, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9911999982595444
+step 13800, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9899000003933907
+step 13900, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9909999996423722
+step 14000, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9905999985337257
+step 14100, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9914999994635582
+step 14200, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9909999999403953
+step 14300, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9918000012636184
+step 14400, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9915000009536743
+step 14500, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9919999995827675
+step 14600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9917000004649162
+step 14700, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.991399998664856
+step 14800, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9914999982714653
+step 14900, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.991199999153614
+step 15000, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9923000010848045
+step 15100, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9914000004529953
+step 15200, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9908999991416931
+step 15300, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9920999997854233
+step 15400, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9924999988079071
+step 15500, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9905999994277954
+step 15600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9924999985098839
+step 15700, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9909999975562096
+step 15800, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9912000024318695
+step 15900, training accuracy 0.96
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9916999986767769
+step 16000, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9918999999761582
+step 16100, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9917999991774559
+step 16200, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9906000000238419
+step 16300, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9929999992251396
+step 16400, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9920999982953072
+step 16500, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9918999996781349
+step 16600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9925
+step 16700, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9920999976992607
+step 16800, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9922999981045723
+step 16900, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9913999998569488
+step 17000, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9910999992489815
+step 17100, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9924999991059303
+step 17200, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9904000002145767
+step 17300, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9929000005126
+step 17400, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9925000011920929
+step 17500, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9922000014781952
+step 17600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9921999993920326
+step 17700, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9916999977827072
+step 17800, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9925999975204468
+step 17900, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9923000007867813
+step 18000, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9916999992728234
+step 18100, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9916999992728234
+step 18200, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.992699998319149
+step 18300, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9912000012397766
+step 18400, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9916999989748001
+step 18500, training accuracy 0.98
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9917999991774559
+step 18600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9917999997735023
+step 18700, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9910999992489815
+step 18800, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9922000008821488
+step 18900, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9918000012636184
+step 19000, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9926999986171723
+step 19100, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9908999991416931
+step 19200, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9921999984979629
+step 19300, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9918000009655953
+step 19400, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9919999998807907
+step 19500, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.992000000178814
+step 19600, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9909999966621399
+step 19700, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9923999992012977
+step 19800, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9924999994039535
+step 19900, training accuracy 1
+Loop Counter: 100
+Loop Counter: 200
+Total Test Accuracy:  0.9923000007867813
+Training Complete
