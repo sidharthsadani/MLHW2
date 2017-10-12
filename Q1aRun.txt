@@ -1,0 +1,10 @@
+Extracting MNIST_data/train-images-idx3-ubyte.gz
+Extracting MNIST_data/train-labels-idx1-ubyte.gz
+Extracting MNIST_data/t10k-images-idx3-ubyte.gz
+Extracting MNIST_data/t10k-labels-idx1-ubyte.gz
+Tensorflowa & MNIST Data Imported! Hello World!
+Placeholders & Variables Defined
+Loss Function Defined
+Training Done
+0.918
+All Done!!
