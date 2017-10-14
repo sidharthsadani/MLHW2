@@ -34,6 +34,9 @@ def max_pool_2x2(x):
 # Load Data Set
 mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 
+batch = mnist.train.next_batch(3)
+
+print("Testing")
 # Define Tensorflow Session
 sess = tf.Session()
 
