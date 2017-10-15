@@ -22,14 +22,13 @@ lr = 0.001
 num_batches = 50
 
 checkpoint_path = "checkpoints/Model1.ckpt"
-
+InitPhrase = "And"
 with tf.Session() as sess:
     net = MyRNN.MyRNN(num_input, num_classes, num_layers, num_hidden, sess, lr)
     saver = tf.train.Saver(tf.global_variables())
     print("TF Session Created")
     saver.restore(sess=sess, save_path=checkpoint_path)
     print("Checkpoint Restored")
-    InitPhrase = "And"
     FinalStr = InitPhrase
     for i in range(len(InitPhrase)):
         InpVec = MyRNN.dH.getOneHotVecGen(InitPhrase[i])

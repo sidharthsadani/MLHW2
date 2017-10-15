@@ -26,10 +26,10 @@ batch_size = 64 # No of times the unrolled RNN is replicated for training
 dH.setBatchSize(batch_size)
 
 # Learning Rate
-lr = 0.001
+lr = 0.002
 # Loop Control To Control Number of Epochs, for simplicity we count the number of batches
 # As opposed to epochs
-num_batches = 50
+num_batches = 2000
 
 
 ####### BEGIN RNN Class Definition ########
@@ -134,7 +134,12 @@ if __name__ == '__main__':
             # print(i)
             # Train Network
             cross_ent = net.stepTrain(x,y)
-            if(i%10==0):
+            if(i%100==0):
                 print("Iteration: %d, Entropy_Loss: %.4f" % (i, cross_ent))
         # Save Network
-        saver.save(sess, "checkpoints/Model1.ckpt")
+            if(i!=0):
+                if(i%1000==999):
+                    ofName = "checkpoints/Model" + str(i+1) + ".ckpt"
+                    saver.save(sess, ofName)
+
+        print("Training Done!")
