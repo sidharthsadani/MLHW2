@@ -45,14 +45,14 @@ class RNNUtils(object):
     def parseData(self):
         self.fData = self.fHandle.read()
         self.dataSize = len(self.fData)
-        print("Total Characters: ", self.dataSize)
+        print("Total Training Characters: ", self.dataSize)
         charset = sorted(set(self.fData))
         self.vocabSize = len(charset)
         print("Vocab Size: ", self.vocabSize)
         self.char_to_idx = { ch:i for i,ch in enumerate(charset)}
         self.idx_to_char = { i:ch for i,ch in enumerate(charset)}
         # print(charset)
-        print(self.vocabSize)
+        # print(self.vocabSize)
         iterD = re.finditer(r"\s\S", self.fData)
         # Computing Start Id of Words to ensure batch begins at a valid word
         self.startId = [m.start(0)+1 for m in iterD]
@@ -112,6 +112,11 @@ class RNNUtils(object):
                 y[j,i,:] = self.getOneHotVec(self.fData[yidx])
 
         return x, y
+    
+    def getOneHotVecGen(self, ch):
+        ohv = np.zeros(shape=(1, self.vocabSize), dtype=np.float32)
+        ohv[0, self.char_to_idx[ch]] = 1
+        return ohv
 
 
 

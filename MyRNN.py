@@ -29,7 +29,7 @@ dH.setBatchSize(batch_size)
 lr = 0.001
 # Loop Control To Control Number of Epochs, for simplicity we count the number of batches
 # As opposed to epochs
-num_batches = 100
+num_batches = 50
 
 
 ####### BEGIN RNN Class Definition ########
@@ -72,7 +72,7 @@ class MyRNN:
             # Setting Network for batch processing
             # To store outputs of every single LSTM, across unrolling and batches
             self.outputs_batch = tf.reshape(self.outputs, [-1, self.num_hidden])
-            batch_logits = tf.matmul(self.outputs_batch, self.Wy) + self.By
+            batch_logits = (tf.matmul(self.outputs_batch, self.Wy) + self.By)
 
             oSh = tf.shape(self.outputs)
             all_pred = tf.nn.softmax(batch_logits)
@@ -91,18 +91,17 @@ class MyRNN:
             self.train_step = tf.train.AdagradOptimizer(self.learning_rate).minimize(self.cross_entropy)
     
     def stepPred(self, Inp, firstIter):
+        cur_state= None
         if firstIter:
-            cur_state = np.zeros((self.num_layers*self.num_hidden*2,))
+            cur_state = np.zeros((self.num_layers*self.num_hidden*2,), dtype = np.float32)
         else:
             cur_state = self.prev_state
-
         # Using the previous state & Inpute Generate Next State and Output
-        out, next_state = self.session.run([self.final_pred, self.next_state], feed_dict={
-            self.x: x, self.init_state:cur_state})
-            
-        self.next_state = next_state[0]
-
-        return out[0][0]
+        # print(type(self.next_state))
+        # print(self.next_state.shape)
+        outs, ns = self.session.run([self.final_pred, self.next_state], feed_dict={self.x: [Inp], self.init_state:[cur_state]})
+        self.prev_state = ns[0]
+        return outs[0][0]
 
     def stepTrain(self, xb, yb):
         batchSize = xb.shape[0]
@@ -121,19 +120,21 @@ class MyRNN:
 
 # sess = tf.Session()
 
-with tf.Session() as sess:
-    net = MyRNN(num_input, num_classes, num_layers, num_hidden, sess, lr)
-    sess.run(tf.global_variables_initializer())
-    # Define Network Saver
-    saver = tf.train.Saver(tf.global_variables())
-    for i in range(num_batches):
-        # get Batch Seed Points
-        x,y = dH.nextBatchNew()
-        # print(x.shape)
-        # print(y.shape)
-        # print(i)
-        # Train Network
-        cross_ent = net.stepTrain(x,y)
-        if(i%10==0):
-            print("Iteration: %d, Entropy_Loss: %.4f" % (i, cross_ent))
+if __name__ == '__main__':
+    with tf.Session() as sess:
+        net = MyRNN(num_input, num_classes, num_layers, num_hidden, sess, lr)
+        sess.run(tf.global_variables_initializer())
+        # Define Network Saver
+        saver = tf.train.Saver(tf.global_variables())
+        for i in range(num_batches):
+            # get Batch Seed Points
+            x,y = dH.nextBatchNew()
+            # print(x.shape)
+            # print(y.shape)
+            # print(i)
+            # Train Network
+            cross_ent = net.stepTrain(x,y)
+            if(i%10==0):
+                print("Iteration: %d, Entropy_Loss: %.4f" % (i, cross_ent))
         # Save Network
+        saver.save(sess, "checkpoints/Model1.ckpt")
